@@ -1,0 +1,56 @@
+   .todos-bg-container {
+            background-color: #f9fbfe;
+            height: 100vh;
+        }
+
+        .todos-heading {
+            text-align: center;
+            font-size: 46px;
+            margin: 20px;
+        }
+
+        .create-task-heading,
+        .todo-items-heading {
+            font-size: 28px;
+        }
+
+        .todo-user-input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        .add-todo-button {
+            background-color: #4c63b6;
+            color: white;
+            border: none;
+            padding: 8px 20px;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+
+        .todo-item-container {
+            margin-top: 15px;
+        }
+
+        .label-container {
+            background-color: #e6f6ff;
+            border-left: 5px solid #096f92;
+            padding: 10px;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .checkbox-label {
+            margin-left: 10px;
+            flex-grow: 1;
+        }
+
+        .delete-icon {
+            cursor: pointer;
+        }
+
+        .checked {
+            text-decoration: line-through;
+        }
